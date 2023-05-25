@@ -17,7 +17,8 @@ int _myhistory(info_t *info)
  * unset_alias - alias to string
  * @info: parameter struct
  * @str: string alias
- *
+ *_myhistory: Displays the history list with line numbers
+ * delete_node_at_index: Deletes a node at a specific index in a linked list
  * Return: Always 0 on success, 1 on error
  */
 int unset_alias(info_t *info, char *str)
@@ -64,8 +65,8 @@ int set_alias(info_t *info, char *str)
  * Return: Always 0 on success, 1 on error
  */
 int print_alias(list_t *node)
-{
-	char *p = NULL, *a = NULL;
+
+{	char *p = NULL, *a = NULL;
 
 	if (node)
 	{
