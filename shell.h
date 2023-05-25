@@ -66,7 +66,6 @@ typedef struct liststr
  * @cmd_buf_type: CMD_type ||, &&, ;
  * @readfd: the fd from which to read line input
  * @histcount: the history line number count
- *
  * Description: This structure holds pseudo-arguments to pass into a function,
  * allowing a uniform prototype for a function pointer struct.
  */
